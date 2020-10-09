@@ -1,3 +1,4 @@
 <resources>
     <color name="grey">#2d0a22</color>
+	<color name="splash_color">#ffffff</color>
 </resources>

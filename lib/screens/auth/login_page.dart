@@ -5,9 +5,6 @@ import 'package:Mazaj/services/general%20apis/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../services/general apis/push_notifications.dart';
-import '../../services/general apis/sharedPreference.dart';
-
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -50,13 +47,6 @@ class _LoginPageState extends State<LoginPage> {
       onWillPop: () => Future.value(false),
       child: Form(
           child: Scaffold(
-        // floatingActionButton: FloatingActionButton(onPressed: () async {
-        //   final deliveryUserToken = await readData(key: 'token');
-        //   print("deliveryUserToken: $deliveryUserToken");
-        //   print(await readData(key: 'user'));
-        //   String mobileToken = await PushNotificationService().getToken();
-        //   print("mobileToken: $mobileToken");
-        // }),
         body: Container(
           height: height,
           width: width,
